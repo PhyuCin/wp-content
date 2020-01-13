@@ -56,7 +56,7 @@ if( $page_post_sidebar && $page_post_sidebar !== 'Customizer' ) {
 
 			echo '<div id="secondary" class="widget-area" role="complementary">';
 			do_action( 'swp_before_sidebar' ); 
-			// dynamic_sidebar( 'sidebar-1' );
+			dynamic_sidebar( 'sidebar-1' );
 			do_action( 'swp_after_sidebar' ); 
 			echo '</div>';
 		}
