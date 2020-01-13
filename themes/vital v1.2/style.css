@@ -1,5 +1,5 @@
 /*
-Theme Name: Vital
+Theme Name: Vital 1.2
 Theme URI: http://www.getstartwp.com
 Author: munirkamal
 Author URI: http://cakewp.com/contact-us/
@@ -1063,6 +1063,8 @@ nav ul ul ul li { position: static;}
 .item4 { grid-area: futurePlan3; }
 .item5 { grid-area: futurePlan4; }
 
+
+ /*border: 10px solid black;*/
 .grid-container {
   display: grid;
   height: wrap-content;
@@ -1075,6 +1077,7 @@ nav ul ul ul li { position: static;}
   border: 1px solid #ed1420;
   padding: 5px;
 }
+
 /*DEMO
 .grid-container {
   display: grid;
@@ -1089,8 +1092,7 @@ nav ul ul ul li { position: static;}
   grid-row: auto auto auto;
   border: 1px solid #ed1420;
   padding: 5px;
-}
-*/
+}*/
 .grid-container > div {
   background-color: white;
   text-align: center;
